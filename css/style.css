@@ -70,9 +70,11 @@ main{
     background-color: rgb(33, 32, 33);
     color: white;
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.left-side{
+.left-side, .center-side{
     display: flex;
     align-items: center;
     padding-left: 20px;
@@ -88,7 +90,11 @@ main{
     padding-left: 10px;
 }
 
-.left-footer{
+.icon{
     display: flex;
     align-items: center;
+}
+
+.center-side .function{
+    padding-left: 20px;
 }
