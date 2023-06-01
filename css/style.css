@@ -64,3 +64,31 @@ main{
     overflow: auto;
     align-items: center;
 }
+
+.foot-container{
+    width: 100%;
+    background-color: rgb(33, 32, 33);
+    color: white;
+    padding: 20px;
+}
+
+.left-side{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.upper-icon{
+    padding: 7px;
+    text-align: center;
+}
+
+.arrow-down{
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.left-footer{
+    display: flex;
+    align-items: center;
+}
