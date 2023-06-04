@@ -61,8 +61,8 @@ main{
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
-    overflow: auto;
     align-items: center;
+    overflow: auto
 }
 
 .foot-container{
